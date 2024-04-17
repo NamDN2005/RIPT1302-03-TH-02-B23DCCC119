@@ -1,0 +1,48 @@
+body {
+    background-color: #100e0e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    text-align: center;
+}
+
+input[type="number"], button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+button {
+    background-color: #f0eff5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1e1e41;
+}
+
+#timerDisplay {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #333;
+}

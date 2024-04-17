@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="nam1.css">
+</head>
+<body>
+    <div class="clock">
+        <input type="number" id="minutesInput" min="0" placeholder="Minutes">
+        <span>:</span>
+        <input type="number" id="secondsInput" min="0" max="59" placeholder="Seconds">
+        <button onclick="startTimer()">START</button>
+        <button onclick="resetTimer()">RESET</button>
+        <audio id="alarmSound" src="alarm_sound.mp3"></audio>
+        <div id="timerDisplay">00:00</div>
+    </div>
+    <audio id="alarmSound" src="Coi-bao-thuc-trong-quan-doi-Ken.mp3"></audio>
+
+    <script src="nam1.js"></script>
+</body>
+</html>
